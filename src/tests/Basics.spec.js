@@ -63,6 +63,7 @@ test('Validate incorrectLogin to Dafz portal', async ({ browser }) => {
 
     await username.fill('dheerajjha040@gmail.com.kjiu.dafz');
     await password.fill('Passw0rd@123');
+    await password.fill('Passw0rd@456');
     await loginbutton.click();
     await expect(validationArea).toContainText('failed')
 
