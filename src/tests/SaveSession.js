@@ -19,4 +19,8 @@ const fs = require('fs');
 
     console.log("Session saved successfully.");
     await browser.close();
+
+
+    console.log("New Line");
+    await browser.close();
 })();
