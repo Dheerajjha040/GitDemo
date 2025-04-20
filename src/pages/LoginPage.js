@@ -38,7 +38,7 @@ class LoginPage {
      * Click the login button
      */
     async clickLoginButton() {
-        await this.page.click(this.loginBu  tton);
+        await this.page.click(this.loginButton);
     }
 
     /**

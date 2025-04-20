@@ -73,5 +73,9 @@ test('Raise Lease Transfer to smaller Unit', async ({ browser }) => {
     await input_EmergencyContact.fill("521992702")
     await button_Next.click();
     await page.pause();
+    await page.pause();
+
+    await page.pause();
+
 
 });
