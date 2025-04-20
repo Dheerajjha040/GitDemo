@@ -31,3 +31,13 @@ test('Learn Browser not required', async ({ page }) => {
 
 
 });
+
+test('Demo for merge branch', async ({ page }) => {
+
+    //const context  =await  browser.newContext();
+    //const page = await context.newPage();
+    await page.goto("https://www.primevideo.com/detail/0Q9TEXARMYXUPXUWH63JEZ5B4L/ref=atv_plr_landingpage_play")
+
+
+});
+
